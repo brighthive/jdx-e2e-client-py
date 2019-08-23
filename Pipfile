@@ -1,0 +1,12 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.org/simple"
+name = "pypi"
+
+[requires]
+python_version = "3.7"
+
+[packages]
+openapi-client = {editable = true,git = "https://github.com/brighthive/jdx-client-api-python.git",ref = "0.0.17"}
+
+[dev-packages]
