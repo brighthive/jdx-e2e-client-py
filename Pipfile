@@ -7,6 +7,6 @@ name = "pypi"
 python_version = "3.7"
 
 [packages]
-openapi-client = {editable = true,git = "https://github.com/brighthive/jdx-client-api-python.git",ref = "0.0.17"}
+openapi-client = {editable = true,git = "https://github.com/jobdataexchange/jdx-client-api-python.git",ref = "0.0.17"}
 
 [dev-packages]
